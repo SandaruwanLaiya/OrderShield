@@ -1,2 +1,120 @@
 ﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #FEF3E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #F5E7B2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+    .login-container h2 {
+        text-align: center;
+        color: #973131;
+    }
+
+    .login-container label {
+        color: #973131;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    .login-container input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #E0A75E;
+        border-radius: 5px;
+    }
+
+    .login-container button {
+        width: 100%;
+        padding: 10px;
+        background-color: #E0A75E;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .login-container button:hover {
+            background-color: #973131;
+        }
+
+    .login-container a {
+        color: #E0A75E;
+        text-decoration: none;
+        display: block;
+        text-align: right;
+        margin-top: 10px;
+    }
+        .login-container a:hover {
+            color: #973131;
+        }
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    background-color: #F5E7B2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+    .popup h2 {
+        text-align: center;
+        color: #973131;
+    }
+
+    .popup label {
+        color: #973131;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    .popup input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #E0A75E;
+        border-radius: 5px;
+    }
+
+    .popup button {
+        width: 100%;
+        padding: 10px;
+        background-color: #E0A75E;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .popup button:hover {
+            background-color: #973131;
+        }
+
+.close-btn {
+    text-align: right;
+    cursor: pointer;
+    color: #973131;
 }
